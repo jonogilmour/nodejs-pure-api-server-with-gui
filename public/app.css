@@ -63,7 +63,11 @@ body.logged-in .header ul li.logged-in{
   display: inline-block;
 }
 
-body.logged-in .header ul li.logged-in{
+body.logged-out .header ul li.logged-in{
+  display: none;
+}
+
+body.logged-in .header ul li.logged-out{
   display: none;
 }
 
