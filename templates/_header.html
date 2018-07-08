@@ -14,24 +14,26 @@
   </head>
   <body class="{body.class}">
     <div class="wrapper">
-      <header>
-        <a class="logo" href="/"></a>
+      <header class="header">
+        <a class="logo" href="/">
+          <img src="public/logo.png" alt="Main Logo">
+        </a>
         <nav>
           <ul class="menu">
             <li>
               <a href="/">Home</a>
             </li>
             <li class="logged-out">
-              <a href="/">Signup</a>
+              <a href="/account/create">Signup</a>
             </li>
             <li class="logged-in">
-              <a href="#">Login</a>
+              <a href="/session/create">Login</a>
             </li>
             <li class="logged-in">
-              <a href="#">Dashboard</a>
+              <a href="/checks/all">Dashboard</a>
             </li>
             <li class="logged-in">
-              <a href="#">Account Settings</a>
+              <a href="/account/edit">Account Settings</a>
             </li>
             <li class="logged-in">
               <a href="#">Logout</a>
